@@ -1,0 +1,247 @@
+*
+  margin: 0
+  padding: 0
+  border: 0
+  font: inherit
+  color: #333
+  background: #0000
+  font-family: 'Montserrat', sans-serif
+
+body
+  background: #ddd
+main, header, div
+  background: #f7f7f7
+
+ul
+  list-style: none
+body
+  display: flex
+  flex-direction: column
+main
+  align-self: center
+  max-width: 1024px
+  min-height: calc( 100vh - 65px )
+  width: 100%
+  padding: 22px
+  box-sizing: border-box
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+button
+  cursor: pointer
+
+h1, h2, h3, h4, h5, h6
+  font-weight: 700
+  color: #000
+
+b
+  font-weight: 700
+
+h1
+  font-size: 2.3rem
+  margin: 22px 0
+h2
+  font-size: 2rem
+  margin: 18px 0
+h3
+  font-size: 1.7rem
+  margin: 16px 0
+h4
+  font-size: 1.5rem
+  margin: 14px 0
+h5
+  font-size: 1.3rem
+h6
+  font-size: 1.1rem
+
+#nav-bar
+  position: sticky
+  top: 0
+  left: 0
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: 65px
+  padding: 0 22px
+  box-shadow: 0 -3px 16px #0003
+  h1
+    font-size: 1.5rem
+  div
+    display: flex
+    gap: 12px
+
+.section
+  margin: 16px 0
+.flex
+  display: flex
+.card-box
+  background: #fff
+  padding: 16px
+  border-radius: 14px
+  box-shadow: 2px 2px 8px #0003
+
+.b
+  font-weight: 600
+.btn
+  display: inline-block
+  border-radius: 6px
+  font-size: .9rem
+  padding: 4px 10px
+  font-weight: 600
+  background: #ddd
+  &.btn-primary
+    background: #2664d8
+    color: #fff
+  &.btn-danger
+    background: #d00
+    color: #fff
+.flex-grow
+  flex-grow: 1
+.no-album
+  .btn
+    padding: 12px 32px
+    margin-top: 12px
+    background: #0aaf0a
+
+ul.list
+  margin: 12px 3px
+  width: 100%
+  li
+    display: flex
+    gap: 8px
+    align-items: center
+    padding: 16px 8px 8px
+    border-bottom: 1px solid #777
+ul.index-list li
+  width: 320px
+
+.center-block
+  display: flex
+  flex-direction: column
+  gap: 3px
+  justify-content: center
+  align-items: center
+
+form
+  display: flex
+  gap: 18px
+  padding: 18px 0
+  flex-direction: column
+  width: 380px
+  input, select, textarea, button
+    background: #fff
+    min-height: 34px
+    border-radius: 6px
+    box-shadow: 1px 1px 3px #0003
+    width: 100%
+    box-sizing: border-box
+    padding: 10px
+  textarea
+    height: 100px
+  button[type="submit"]
+    display: inline-block
+    border-radius: 6px
+    font-size: .9rem
+    padding: 4px 10px
+    font-weight: 600
+    background: #2664d8
+    color: #fff
+    font-weight: 600
+  img
+    margin: 18px 0
+    width: 100%
+    border-radius: 14px
+    box-shadow: 2px 2px 12px #0003
+.album-index-header
+  background: #fff
+  padding: 22px
+  border-radius: 14px
+  display: flex
+  flex-direction: column
+  gap: 6px
+  align-items: start
+  .btn
+    margin-top: 12px
+.cards-album-index
+  display: flex
+  padding: 22px 12px
+  flex-wrap: wrap
+  gap: 28px
+  & > div
+    background: #fff
+    padding: 12px
+    border-radius: 14px
+    box-shadow: 2px 2px 12px #0003
+    img
+      width: 250px
+      border-radius: 12px
+      margin-bottom: 8px
+
+.detail-photo-head
+  display: flex
+  flex-wrap: wrap
+  gap: 22px
+  background: #fff
+  padding: 22px
+  align-items: start
+  border-radius: 14px
+  img
+    width: 360px
+    border-radius: 12px
+    box-shadow: 2px 2px 12px #0003
+    max-width: 100%
+  div
+    background: inherit
+    display: flex
+    flex-direction: column
+    gap: 3px
+    &.flex
+      flex-direction: row
+      gap: 12px
+      align-items: center
+      button
+        background: #eb3d3d44
+        color: #bd0505
+        border: 2px solid #bd0505
+    a
+      display: block
+      background: #eef
+      padding: 8px 12px
+      border-radius: 12px
+      box-shadow: 2px 2px 8px #0003
+      margin: 12px 0
+      &:hover
+        text-decoration: none
+  p
+    flex-grow: 1
+    max-width: 520px
+
+.comment-form
+  margin: 12px 0
+  width: 100%
+  div
+    display: flex
+    gap: 14px
+    align-items: center
+    width: 100%
+    input
+      flex-grow: 1
+    button
+      width: fit-content
+      padding: 12px 32px
+
+.comments
+  .comment
+    background: #fff
+    padding: 12px
+    border-radius: 14px
+    box-shadow: 2px 2px 3px #0002
+    p
+      padding: 12px
+    div
+      background: #0000
+      display: flex
+      justify-content: space-between
+      align-items: center
